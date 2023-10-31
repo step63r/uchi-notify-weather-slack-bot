@@ -138,7 +138,7 @@ def post_slack(message: str) -> None:
         raise e
 
 
-@app.schedule(schedule="0 0 0 * * *", arg_name="myTimer", run_on_startup=True,
+@app.schedule(schedule="0 0 0 * * *", arg_name="myTimer", run_on_startup=False,
               use_monitor=False) 
 def TimerFunc(myTimer: func.TimerRequest) -> None:
     """
