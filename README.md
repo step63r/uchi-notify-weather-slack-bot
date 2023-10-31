@@ -23,7 +23,7 @@
 
 ```
 PS> python -m venv .venv
-PS> .\.vemv\Scripts\activate
+PS> .\.venv\Scripts\activate
 (.venv) PS> pip install -r .\requirements.txt
 ```
 
